@@ -27,7 +27,7 @@ artifacts {
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: "http://123.57.188.62:8081/nexus/content/repositories/releases/"){
+            repository(url: RELEASE_REPOSITORY_URL){
                 authentication(userName: USERNAME, password: PASSWORD)
             }
         }

@@ -28,7 +28,7 @@ uploadArchives {
     repositories {
         mavenDeployer {
             repository(url: "http://123.57.188.62:8081/nexus/content/repositories/releases/"){
-                authentication(userName: "xxxx", password: "yyyy")
+                authentication(userName: USERNAME, password: PASSWORD)
             }
         }
     }
